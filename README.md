@@ -25,7 +25,7 @@ La base de datos actualmente contiene 7 tablas de las cuales, se puede tomar la 
 
 El modelo entidad relación es el siguiente:
 
-![Diagrama entidad relación del proyecto](https://github.com/AgenteAgherse/software-calificacion/blob/main/Database/MER.png)
+![Diagrama entidad relación del proyecto]
 
 > Nota: Se cambia el atributo tipo_identificacion de INT a VARCHAR.
 
@@ -50,7 +50,7 @@ Las librerías necesarias dentro del proyecto son las siguientes:
 ## Diagrama de Clases
 La estructura del proyecto está hecha como se muestra en la siguiente ilustración
 
-![Diagrama de clases](https://github.com/AgenteAgherse/software-calificacion/blob/main/Database/Diagrama_de_Clases.png)
+![Diagrama de clases]
 
 Como se puede evidenciar, el diagrama resulta extenso por la cantidad de librerías e importaciones que se están aplicando sobre el proyecto. Para ver con mayor detalle, descargar la imagen que se encuentra en:
 ```
@@ -65,12 +65,12 @@ El proyecto a su vez, está dividido por diferentes carpetas las cuales van a se
 
 ## Consideraciones
 El proyecto al incluir la información por Thymeleaf en vez de enviar la información por medio de un JSON (el frontend y el backend es netamente en Spring), va a mostrar las salidas en Postman en formato de HTML.
-![Imagen del index sin haber iniciado sesión](https://github.com/AgenteAgherse/software-calificacion/blob/main/Database/inicio(wo_login).png)
+![Imagen del index sin haber iniciado sesión]
 
 En la imagen anterior, se muestra el formulario del login dado que Spring Security está funcionando sin problemas. Dado que la configuración no permite en ninguna de las opciones iniciar la sesión, se procede a llenar la información de inicio de sesión en el navegador.
-![Formulario de inicio de sesión](https://github.com/AgenteAgherse/software-calificacion/blob/main/Database/form_login.png)
+![Formulario de inicio de sesión]
 
-![Index](https://github.com/AgenteAgherse/software-calificacion/blob/main/Database/index.png)
+![Index]
 
 
 ### Consideraciones a tener en cuenta
